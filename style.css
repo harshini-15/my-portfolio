@@ -175,6 +175,30 @@ body {
     color: #1abc9c; /* Subtle teal color on hover */
 }
 
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    margin: 20px auto;
+    width: 70%;
+    text-align: left;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dark .card {
+    background-color: #1f1f1f;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
 /* Contact Section */
 .contact {
     padding: 60px 20px;
